@@ -1,2 +1,2 @@
 # portfolio_learning
-learning to do a portfolio website
+A model portfolio website
