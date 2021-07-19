@@ -324,6 +324,9 @@ footer {
 .project-card{
     margin-bottom: 25px;
 }
+.accordion-button {
+    font-weight: 600;
+}
 
 /*--media queries--*/
 @media (max-width: 575.98px) { 
