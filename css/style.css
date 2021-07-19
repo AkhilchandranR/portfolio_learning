@@ -109,6 +109,22 @@
     background-color: #24262a !important;
     
 }
+.displayScrollbtn{
+    display: block !important;
+}
+.btnScrollToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #24262a;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    display: none;
+}
 .navbar.navbar-expand-lg.navbar-light {
     background-color: transparent;
 }
@@ -140,12 +156,13 @@
     margin: 3px;
 }
 .banner{
-    background-image: url(../images/header-background.jpg);
-    height: 800px;
-    width: 100%;
+    background: url(../images/header-background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 90px 0;
+    overflow: hidden;
 }
 .col-md-6.banner-content {
-    top: 300px;
+    margin-top: 200px;
 }
 .col-md-6.banner-content h1 {
     color: #fff;
@@ -206,7 +223,6 @@
     overflow: hidden;
 }
 .col-lg-6.details-desc {
-    padding: 66px 124px;
     overflow: hidden;
 }
 .des-tools{
@@ -318,14 +334,13 @@ footer {
         margin-left: 0px;
     }
     .col-md-6.banner-content {
-        top: 150px;
+        margin-top: 100px;
     }
     .col-md-6.banner-content h1 {
         font-size: 3em;
         font-weight: 500;
     }
     .banner {
-        height: 120vh;
         width: 100%;
     }
     .services {
@@ -335,17 +350,18 @@ footer {
         margin-top: 50px;
     }
     .accordion {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 auto !important;
+        margin-top: 60px;
+        width: 70%;
     }
     .contact-form {
         margin-top: 90px;
     }
     .your_name, .your_email {
-        width: 90%;
+        width: 90% !important;
     }
     .project_details{
-        width: 90%;
+        width: 90% !important;
     }
     .delivered-projects {
         margin-top: 60px;
@@ -363,14 +379,13 @@ footer {
         margin-left: 0px;
     }
     .col-md-6.banner-content {
-        top: 150px;
+        margin-top: 100px;
     }
     .col-md-6.banner-content h1 {
         font-size: 3em;
         font-weight: 500;
     }
     .banner {
-        height: 120vh;
         width: 100%;
     }
     .services {
@@ -380,17 +395,18 @@ footer {
         margin-top: 50px;
     }
     .accordion {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 auto !important;
+        margin-top: 60px;
+        width: 75%;
     }
     .contact-form {
         margin-top: 90px;
     }
     .your_name, .your_email {
-        width: 90%;
+        width: 90% !important;
     }
     .project_details{
-        width: 90%;
+        width: 90% !important;
     }
     .delivered-projects {
         margin-top: 60px;
@@ -408,14 +424,13 @@ footer {
         margin-left: 0px;
     }
     .col-md-6.banner-content {
-        top: 150px;
+        margin-top: 150px;
     }
     .col-md-6.banner-content h1 {
         font-size: 3em;
         font-weight: 500;
     }
     .banner {
-        height: 120vh;
         width: 100%;
     }
     .services {
@@ -425,17 +440,18 @@ footer {
         margin-top: 50px;
     }
     .accordion {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 auto !important;
+        margin-top: 60px;
+        width: 75%;
     }
     .contact-form {
         margin-top: 90px;
     }
     .your_name, .your_email {
-        width: 90%;
+        width: 90% !important;
     }
     .project_details{
-        width: 90%;
+        width: 90% !important;
     }
     .delivered-projects {
         margin-top: 60px;
@@ -445,8 +461,38 @@ footer {
     }
 }
 
-/* @media (max-width: 1199.98px) { } */
+@media (max-width: 1199.98px) { 
+    .accordion {
+        margin: 0 200px;
+        margin-top: 60px;
+    }
+    .your_name, .your_email {
+        width: 60%;
+    }
+    .project_details{
+        width: 60%;
+    }
+    .submit_button{
+        width: 60%;
+    }
+    
+}
 
-/* @media (max-width: 1399.98px) { } */ 
+@media (max-width: 1399.98px) { 
+    .accordion {
+        margin: 0 200px;
+        margin-top: 60px;
+    }
+    .your_name, .your_email {
+        width: 60%;
+    }
+    .project_details{
+        width: 60%;
+    }
+    .submit_button{
+        width: 60%;
+    }
+
+} 
 
 /********media query ends********/
